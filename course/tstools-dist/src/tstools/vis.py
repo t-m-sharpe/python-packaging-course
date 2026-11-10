@@ -19,7 +19,7 @@ def plot_trajectory_subset(timeseries, tmin, tmax):
     -------
     """
 
-    t = "######"
+    t = timeseries[:, 0]
     if tmin < np.amin(t) or tmax > np.amax(t):
         raise ValueError("Interval is out of bounds")
 
