@@ -1,8 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from scipy.special import erf
-
-from .moments import get_mean_and_var
+import numpy as np
 
 
 def plot_trajectory_subset(timeseries, tmin, tmax):
