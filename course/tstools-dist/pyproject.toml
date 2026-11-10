@@ -1,0 +1,13 @@
+[project]
+name = "tstools"
+version = "0.1.0"
+description = "Tools for handling time-series data"
+authors = [{ name = "Tom Sharpe", email = "tom.sharpe@ndcn.ox.ac.uk" }]
+requires-python = ">=3.14"
+license = "GPL-3.0-only"
+dependencies = ["matplotlib", "numpy"]
+
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
